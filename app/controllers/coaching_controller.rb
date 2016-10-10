@@ -3,5 +3,7 @@ class CoachingController < ApplicationController
   end
 
   def answer
+    @query = params[:query]
+    @coach_answer = "Move your ass, Boy!"
   end
 end
